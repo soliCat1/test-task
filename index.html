@@ -12,74 +12,92 @@
 <body>
   <div class="container">
     <section class="intro">
-      <img class="planes-img" src="./assets/images/telegram.png" alt="planes images">
       <div class="intro__wrapper">
         <h1 class="intro__title">Поддержка здесь</h1>
         <p class="intro__description">Мы любим общаться и рады всем отзывам, вопросам и предложениям. Выберите удобный
           способ</p>
         <ul class="intro__list">
           <li class="intro__item">
-            <button class="intro__btn">
-              <img class="intro__btn-icon" src="./assets/icons/chat-icon.svg" alt="chat icon">
+            <a class="intro__link" href="#">
+              <svg class="intro__svg">
+                <use href="./assets/img/svg/sprite.svg#intro-chat"></use>
+              </svg>
               Онлайн-чат
-            </button>
+            </a>
           </li>
           <li class="intro__item">
-            <button class="intro__btn">
-              <img class="intro__btn-icon" src="./assets/icons/phone-icon.svg" alt="phone icon">
+            <a class="intro__link" href="#">
+              <svg class="intro__svg">
+                <use href="./assets/img/svg/sprite.svg#intro-phone"></use>
+              </svg>
               Позвонить
-            </button>
+            </a>
           </li>
           <li class="intro__item">
-            <button class="intro__btn">
-              <img class="intro__btn-icon" src="./assets/icons/mail-icon.svg" alt="mail icon">
+            <a class="intro__link" href="#">
+              <svg class="intro__svg">
+                <use href="./assets/img/svg/sprite.svg#intro-mail"></use>
+              </svg>
               Почта
-            </button>
+            </a>
           </li>
           <li class="intro__item">
-            <button class="intro__btn">
-              <img class="intro__btn-icon" src="./assets/icons/star-reviews-icon.svg" alt="star icon">
+            <a class="intro__link" href="#">
+              <svg class="intro__svg">
+                <use href="./assets/img/svg/sprite.svg#intro-star"></use>
+              </svg>
               Отзыв о сайте
-            </button>
+            </a>
           </li>
         </ul>
       </div>
-      <img class="hand-img" src="./assets/images/hand-whith-phone.png" alt="hand with phone image">
     </section>
-    <section class="socials">
-      <div class="socials__wrapper">
-        <p class="socials__description">Социальные сети и сообщество</p>
-        <h2 class="socials__title">Присоединяйтесь</h2>
+    <section class="social">
+      <div class="social__wrapper">
+        <p class="social__description">Социальные сети и сообщество</p>
+        <h2 class="social__title">Присоединяйтесь</h2>
       </div>
-      <ul class="socials__list">
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/vk.svg" alt="vk icon">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-vk"></use>
+            </svg>
           </a>
         </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/insta.svg" alt="instagram icon">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-instagram"></use>
+            </svg>
           </a>
         </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/tiktok.svg" alt="tiktok icon">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-tiktok"></use>
+            </svg>
           </a>
         </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/twitter.svg" alt="twitter icon">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-twitter"></use>
+            </svg>
           </a>
         </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/dzen.svg" alt="dzen icon">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-dzen"></use>
+            </svg>
           </a>
         </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <img src="./assets/icons/facebook.svg" alt="facebook icon">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__svg">
+              <use href="./assets/img/svg/sprite.svg#social-facebook"></use>
+            </svg>
           </a>
         </li>
       </ul>
@@ -136,28 +154,28 @@
       <h2 class="faq__title">Справка</h2>
       <ul class="faq__list">
         <li class="faq__item">
-          <details class="faq__subject">
-            <summary class="faq__summary">Бережная сборка</summary>
-          </details>
+          <a class="faq__link">
+            <span class="faq__link-title">Бережная сборка</span>
+          </a>
         </li>
         <li class="faq__item">
-          <details class="faq__subject">
-            <summary class="faq__summary">Способы доставки и самовывоза</summary>
+          <a class="faq__link">
+            <span class="faq__link-title">Способы доставки и самовывоза</span>
             <p class="faq__answer">Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности
               с&nbsp;вашим номером покупат</p>
-          </details>
+          </a>
         </li>
         <li class="faq__item">
-          <details class="faq__subject">
-            <summary class="faq__summary">Минимальная сумма заказа</summary>
-          </details>
+          <a class="faq__link">
+            <span class="faq__link-title">Минимальная сумма заказа</span>
+          </a>
         </li>
         <li class="faq__item">
-          <details class="faq__subject">
-            <summary class="faq__summary">Лёгкий возврат</summary>
+          <a class="faq__link">
+            <span class="faq__link-title">Лёгкий возврат</span>
             <p class="faq__answer">Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности
               с&nbsp;вашим номером покупат</p>
-          </details>
+          </a>
         </li>
       </ul>
     </section>
