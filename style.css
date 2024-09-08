@@ -143,6 +143,22 @@ body {
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
+  transition: all 0.2s ease;
+}
+
+.intro__link:hover {
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.intro__link:focus {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.intro__link:active {
+  opacity: 0.5;
 }
 
 .social {
@@ -183,6 +199,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #36BA5F;
+  transition: all 0.2s ease;
+}
+
+.social__link:hover {
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.social__link:focus {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.social__link:active {
+  opacity: 0.5;
 }
 
 .questions {
@@ -251,6 +284,25 @@ body {
   box-shadow: 0px 1px 7px 0px #00000017;
   background-color: #FFFFFF;
   color: #1A1A1A;
+  transition: all 0.2s ease;
+}
+
+#button-next:hover ,
+#button-prev:hover {
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+#button-next:focus-visible ,
+#button-prev:focus-visible {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+#button-next:active ,
+#button-prev:active {
+  opacity: 0.5;
 }
 
 #button-next.swiper-button-next svg,
@@ -299,13 +351,13 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 4px;
+  color: #1A1A1A;
 }
 
 .faq__description {
   font-size: 13px;
   font-weight: 400;
   line-height: 18.2px;
-  color: #949494;
   width: 445px;
 }
 
@@ -315,17 +367,36 @@ body {
   box-shadow: 0px 0px 30px 0px #0000000D;
   padding: 20px 20px 20px 24px;
   display: block;
+  color: #949494;
+  cursor: pointer;
 }
 
-.faq__link::after {
-  content: "";
+.faq__link:hover {
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.faq__link:focus {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #36BA5F;
+}
+
+.faq__link:active {
+  opacity: 0.5;
+}
+
+.faq__link:hover .faq__link-title,
+.faq__link:focus .faq__link-title,
+.faq__link:active .faq__link-title {
+  color: #FFFFFF;
+}
+
+.faq__svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 20px;
   width: 8px;
   height: 12px;
-  background-image: url("./assets/img/svg/arrow.svg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
