@@ -97,6 +97,22 @@ body {
   padding-top: 22px;
 }
 
+.container--sitemap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.container--sitemap ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
 .intro {
   position: relative;
 
