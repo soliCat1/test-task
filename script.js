@@ -1,7 +1,7 @@
 var swiper = new Swiper(".swiper", {
   direction: "horizontal",
   slidesPerView: 4,
-  spaceBetween: 10,
+  spaceBetween: 24,
   loop: false,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -10,19 +10,15 @@ var swiper = new Swiper(".swiper", {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 20,
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 30,
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 24,
     },
     1280: {
       slidesPerView: 4,
-      spaceBetween: 24,
     },
   },
 });
